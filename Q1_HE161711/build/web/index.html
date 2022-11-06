@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="register" method="post">
+            <div> Student Name: <input  type="text" name ="username"/></div>
+            <div>
+                Level: 
+                <input type="radio" name="level" value="Bsc Program"/> Bsc Program
+                <input type="radio" name="level" value="Master Program"/> Master Program
+                <input type="radio" name="level" value="PhD Program"/> PhD Program
+            </div>
+            <div>
+                Mode: 
+                <select name="mode">
+                    <option value="Full time"> Full time</option>
+                    <option value="Part time"> Part time</option>
+                </select>
+            </div>
+            <div>
+                Enroll Date 
+                <input  type="date" name="date"/>
+            </div>
+            <div><button>SAVE</button></div>
+        </form>
+    </body>
+</html>
